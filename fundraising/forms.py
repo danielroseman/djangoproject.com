@@ -35,7 +35,7 @@ class DjangoHeroForm(forms.ModelForm):
         required=False,
         widget=forms.TextInput(
             attrs={
-                'placeholder': 'To which URL should we link your name to?',
+                'placeholder': 'Which URL should we link your name to?',
             },
         )
     )
